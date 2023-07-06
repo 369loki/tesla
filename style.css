@@ -1,0 +1,90 @@
+*{ padding:0; margin:0;}
+.title{ background:black; width:100%; height:570px; color:white;}
+.title1{display:flex; justify-content:center; align-items:center; flex-direction:column;
+height:100%;}
+#wordsone{font-family: 'Lora', serif; font-size:60px; padding-bottom:20px;}
+#wordstwo{font-family: 'Lora', serif;font-size:50px; padding-bottom:20px;}
+#wordsthree{font-family: 'PT Serif', serif;font-size:55px;}
+
+
+/* one two*/
+.content { width:100%;  height:570px; color:black; 
+display:flex; justify-content:space-between; }
+
+.quotes{ display:flex; justify-content:center; height:100%;  width:50%;
+align-items:center;margin-left:140px;}
+
+
+.img{ width:420px; height:100%;display:flex; justify-content:center;}
+.quotesp { font-size:34px; text-align:center;  
+font-family: 'Roboto', sans-serif; }
+
+
+/* one three*/
+
+.end { background:black; color:white; width:100%; height:760px; 
+display:flex; flex-direction:column; justify-content:center; align-items:center;}
+.last {  width:50%; height:750; }
+#bio { font-size:60px; padding-bottom:40px; margin-top:40px;font-family: 'Lora', serif;} 
+#life { font-size:24px; font-family: 'Lora', serif;}
+#by { padding-bottom:25px;font-size:17px; font-family: 'Raleway', 
+sans-serif;}
+span{ color:#41CBEC; }
+               
+                       /*applying media quries*/
+
+
+
+@media only screen and (max-width: 767px) 
+{ 
+#wordsone{font-family: 'Lora', serif; font-size:35px; padding-bottom:20px;}
+#wordstwo{font-family: 'Lora', serif;font-size:35px; padding-bottom:20px;}
+#wordsthree{font-family: 'PT Serif', serif;font-size:25px;}
+
+.content{ display:flex; flex-direction:column; height:600px;}
+.quotes {display:flex; justify-content:center; width:300px; 
+margin-left:10px;}
+.quotes p { display:flex;font-size:24px; text-align:center;  
+font-family: 'Roboto', sans-serif; width:90%; height:60%;}
+.img{ width:100%; height:100%;display:flex; justify-content:center;}
+img {width:550px; height:400px; }
+
+
+
+.end { background:black; color:white; width:100%; height:750px; display:flex; flex-direction:column; justify-content:center; align-items:center; }
+
+
+.last {  width:85%; height:650; }
+#bio { font-size:55px; padding-bottom:30px; margin-top:40px;font-family: 'Lora', serif;} 
+#life { font-size:16px;font-family: 'Lora', serif;}
+#by { font-size:17px; font-family: 'Raleway', 
+sans-serif; padding-top:30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
