@@ -1,3 +1,3 @@
-#tesla
-TESLA TRIBUTE PAGE
-SiteLink: https://369loki.github.io/Tesla/
+
+#TESLA_TRIBUTE_PAGE
+SiteLink: https://thelokesha.github.io/Tesla/
