@@ -1,3 +1,2 @@
-
-#TESLA_TRIBUTE_PAGE
+# Tesla Tribute Page
 SiteLink: https://thelokesha.github.io/Tesla/
